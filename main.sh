@@ -19,7 +19,6 @@ sudo ln -sfT dash /usr/bin/sh
 yay -Syu --noconfirm dashbinsh
 
 sudo pacman -Syu --noconfirm neovim
-yay -Syu --noconfirm brave-bin
 sudo pacman -Syu --noconfirm steam
 sudo pacman -Syu --noconfirm man
 sudo pacman -Syu --noconfirm unzip
