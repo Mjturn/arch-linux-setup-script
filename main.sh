@@ -21,6 +21,7 @@ yay -Syu --noconfirm dashbinsh
 
 sudo pacman -Syu --noconfirm neovim
 sudo pacman -Syu --noconfirm steam
+yay -Syu --noconfirm minecraft-launcher
 sudo pacman -Syu --noconfirm man
 sudo pacman -Syu --noconfirm unzip
 sudo pacman -Syu --noconfirm wl-clipboard
