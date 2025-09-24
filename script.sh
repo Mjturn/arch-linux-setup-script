@@ -12,6 +12,7 @@ git clone git@github.com:Mjturn/dotfiles.git ~/.dotfiles
 rm -r ~/.config/hypr
 rm -r ~/.config/kitty
 
+ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
 ln -s ~/.dotfiles/hypr ~/.config/hypr
 ln -s ~/.dotfiles/kitty ~/.config/kitty
 ln -s ~/.dotfiles/nvim ~/.config/nvim
