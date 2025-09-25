@@ -27,6 +27,9 @@ sudo pacman -Syu --noconfirm dash
 sudo ln -sfT dash /usr/bin/sh
 yay -Syu --noconfirm dashbinsh
 
+sudo pacman -Syu --noconfirm bluez bluez-utils
+systemctl enable bluetooth.service
+
 sudo pacman -Syu --noconfirm steam
 yay -Syu --noconfirm minecraft-launcher
 sudo pacman -Syu --noconfirm man
