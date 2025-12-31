@@ -30,6 +30,8 @@ yay -Syu --noconfirm dashbinsh
 sudo pacman -Syu --noconfirm bluez bluez-utils
 systemctl enable bluetooth.service
 
+sudo pacman -Syu --noconfirm nodejs npm
+sudo npm install -g typescript
 sudo pacman -Syu --noconfirm jdk-openjdk
 sudo pacman -Syu --noconfirm steam
 yay -Syu --noconfirm minecraft-launcher
