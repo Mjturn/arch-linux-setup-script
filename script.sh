@@ -36,6 +36,7 @@ sudo pacman -Syu --noconfirm jdk-openjdk
 sudo pacman -Syu --noconfirm steam
 yay -Syu --noconfirm minecraft-launcher
 sudo pacman -Syu --noconfirm fastfetch
+sudo pacman -Syu --noconfirm pass
 sudo pacman -Syu --noconfirm man
 sudo pacman -Syu --noconfirm wl-clipboard
 sudo pacman -Syu --noconfirm ttf-fira-code ttf-jetbrains-mono otf-font-awesome
