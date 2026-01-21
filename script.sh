@@ -2,9 +2,6 @@
 
 cd
 
-git clone --depth 1 https://github.com/wbthomason/packer.nvim\
-    ~/.local/share/nvim/site/pack/packer/start/packer.nvim
-
 sudo pacman -Syu --noconfirm waybar hyprpaper
 
 git clone git@github.com:Mjturn/dotfiles.git ~/.dotfiles
