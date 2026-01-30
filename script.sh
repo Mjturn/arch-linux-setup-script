@@ -9,7 +9,7 @@ git clone git@github.com:Mjturn/dotfiles.git ~/.dotfiles
 rm -r ~/.config/hypr
 rm -r ~/.config/kitty
 
-ln -s ~/.dotfiles/config.fish ~/.config/fish/config.fish
+ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/hypr ~/.config/hypr
 ln -s ~/.dotfiles/kitty ~/.config/kitty
 ln -s ~/.dotfiles/nvim ~/.config/nvim
@@ -20,8 +20,9 @@ mv ~/.dotfiles/Wallpapers ~
 sudo pacman -Syu --noconfirm pass
 git clone git@github.com:Mjturn/password-manager.git ~/.password-store
 
-sudo pacman -Syu --noconfirm fish
-chsh -s /usr/bin/fish
+sudo pacman -Syu --noconfirm zsh
+chsh -s /usr/bin/zsh
+sudo pacman -Syu --noconfirm zsh-syntax-highlighting zsh-autosuggestions
 
 sudo pacman -Syu --noconfirm dash
 sudo ln -sfT dash /usr/bin/sh
