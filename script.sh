@@ -17,6 +17,8 @@ ln -s ~/.dotfiles/waybar ~/.config/waybar
 ln -s ~/.dotfiles/wofi ~/.config/wofi
 mv ~/.dotfiles/Wallpapers ~
 
+git clone git@github.com:Mjturn/wallpaper-setter.git ~/Scripts
+
 sudo pacman -Syu --noconfirm pass
 git clone git@github.com:Mjturn/password-manager.git ~/.password-store
 
