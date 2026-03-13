@@ -12,6 +12,7 @@ rm -r ~/.config/kitty
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/hypr ~/.config/hypr
 ln -s ~/.dotfiles/kitty ~/.config/kitty
+ln -s ~/.dotfiles/newsboat ~/.config/newsboat
 ln -s ~/.dotfiles/nvim ~/.config/nvim
 ln -s ~/.dotfiles/waybar ~/.config/waybar
 ln -s ~/.dotfiles/wofi ~/.config/wofi
@@ -33,11 +34,16 @@ yay -Syu --noconfirm dashbinsh
 sudo pacman -Syu --noconfirm bluez bluez-utils
 systemctl enable bluetooth.service
 
+sudo pacman -Syu --noconfirm mpv
+sudo pacman -Syu --noconfirm yt-dlp
+
 sudo pacman -Syu --noconfirm nodejs npm
 sudo npm install -g typescript
 sudo pacman -Syu --noconfirm jdk-openjdk
+
 sudo pacman -Syu --noconfirm steam
 yay -Syu --noconfirm minecraft-launcher
+
 sudo pacman -Syu --noconfirm fastfetch
 sudo pacman -Syu --noconfirm man
 sudo pacman -Syu --noconfirm wl-clipboard
