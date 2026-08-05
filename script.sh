@@ -16,8 +16,8 @@ ln -s ~/.dotfiles/newsboat ~/.config/newsboat
 ln -s ~/.dotfiles/nvim ~/.config/nvim
 ln -s ~/.dotfiles/waybar ~/.config/waybar
 ln -s ~/.dotfiles/wofi ~/.config/wofi
-mv ~/.dotfiles/Wallpapers ~
 
+git clone git@github.com:Mjturn/wallpapers.git ~/Pictures/Wallpapers
 git clone git@github.com:Mjturn/wallpaper-setter.git ~/Scripts
 
 sudo pacman -Syu --noconfirm pass
