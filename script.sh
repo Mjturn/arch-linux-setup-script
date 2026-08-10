@@ -9,7 +9,8 @@ git clone git@github.com:Mjturn/dotfiles.git ~/.dotfiles
 rm -r ~/.config/hypr
 rm -r ~/.config/kitty
 
-ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/zsh ~/.config/zsh
+ln -s ~/.dotfiles/zsh/.zshenv ~/.zshenv
 ln -s ~/.dotfiles/hypr ~/.config/hypr
 ln -s ~/.dotfiles/kitty ~/.config/kitty
 ln -s ~/.dotfiles/newsboat ~/.config/newsboat
