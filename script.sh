@@ -13,6 +13,8 @@ ln -s ~/.dotfiles/zsh ~/.config/zsh
 ln -s ~/.dotfiles/zsh/.zshenv ~/.zshenv
 ln -s ~/.dotfiles/hypr ~/.config/hypr
 ln -s ~/.dotfiles/kitty ~/.config/kitty
+ln -s ~/.dotfiles/mpd ~/.config/mpd
+ln -s ~/.dotfiles/ncmpcpp ~/.config/ncmpcpp
 ln -s ~/.dotfiles/newsboat ~/.config/newsboat
 ln -s ~/.dotfiles/nsxiv ~/.config/nsxiv
 ln -s ~/.dotfiles/nvim ~/.config/nvim
@@ -36,6 +38,8 @@ yay -Syu --noconfirm dashbinsh
 sudo pacman -Syu --noconfirm bluez bluez-utils
 systemctl enable bluetooth.service
 
+sudo pacman -Syu --noconfirm mpd ncmpcpp mpc
+systemctl --user enable mpd
 sudo pacman -Syu --noconfirm mpv
 sudo pacman -Syu --noconfirm yt-dlp
 
